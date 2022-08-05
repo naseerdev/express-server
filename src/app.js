@@ -7,7 +7,6 @@ const jwt = require("jsonwebtoken");
 const Todo = require('../models/Todo')
 const User = require("../models/User");
 
-
 const SECRET_JWT_CODE = 'psmR3Hu0ihHkqZymo1m'
 
 app.use(express.json())
